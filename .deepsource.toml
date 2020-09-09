@@ -9,3 +9,8 @@ enabled = true
     "nodejs",
     "browser"
   ]
+  exclude_patterns = [
+  "dist/**",
+  "examples/**"
+  ]
+  test_patterns = ["*/test/**"]
