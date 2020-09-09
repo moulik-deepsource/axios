@@ -1,4 +1,10 @@
 version = 1
+exclude_patterns = [
+  "dist/**",
+  "examples/**"
+]
+
+test_patterns = ["*/test/**"]
 
 [[analyzers]]
 name = "javascript"
@@ -9,8 +15,3 @@ enabled = true
     "nodejs",
     "browser"
   ]
-  exclude_patterns = [
-  "dist/**",
-  "examples/**"
-  ]
-  test_patterns = ["*/test/**"]
